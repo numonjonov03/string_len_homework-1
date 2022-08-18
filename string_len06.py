@@ -7,6 +7,6 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    if len(s1)>len(s2):
+    if len(s1)<len(s2):
         return s1
     return s2
